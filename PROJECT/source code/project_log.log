@@ -1,0 +1,23 @@
+;;; 
+Export: Release 12.2.0.1.0 - Production on Mon May 18 03:46:41 2020
+
+Copyright (c) 1982, 2017, Oracle and/or its affiliates.  All rights reserved.
+;;; 
+Connected to: Oracle Database 12c Enterprise Edition Release 12.2.0.1.0 - 64bit Production
+Starting "SYSTEM"."SYS_EXPORT_TABLE_01":  system/******** directory=exp_table dumpfile=celebal_project.dmp logfile=project_log.log tables=employees,project_detail,insertion 
+Processing object type TABLE_EXPORT/TABLE/TABLE_DATA
+Processing object type TABLE_EXPORT/TABLE/INDEX/STATISTICS/INDEX_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/TABLE_STATISTICS
+Processing object type TABLE_EXPORT/TABLE/STATISTICS/MARKER
+Processing object type TABLE_EXPORT/TABLE/TABLE
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/CONSTRAINT/REF_CONSTRAINT
+Processing object type TABLE_EXPORT/TABLE/TRIGGER
+. . exported "SYSTEM"."EMPLOYEES"                        10.17 KB      10 rows
+. . exported "SYSTEM"."INSERTION"                            0 KB       0 rows
+. . exported "SYSTEM"."PROJECT_DETAIL"                   7.578 KB       4 rows
+Master table "SYSTEM"."SYS_EXPORT_TABLE_01" successfully loaded/unloaded
+******************************************************************************
+Dump file set for SYSTEM.SYS_EXPORT_TABLE_01 is:
+  C:\DATA PUMP\TABLE\CELEBAL_PROJECT.DMP
+Job "SYSTEM"."SYS_EXPORT_TABLE_01" successfully completed at Mon May 18 03:46:51 2020 elapsed 0 00:00:09

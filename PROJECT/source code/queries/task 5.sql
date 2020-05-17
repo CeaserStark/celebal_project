@@ -1,0 +1,1 @@
+update employees set dob=hire_date,hire_date=dob;

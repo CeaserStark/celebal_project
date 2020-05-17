@@ -1,0 +1,1 @@
+ select round(avg(salary)-avg(case when regexp_like(to_char(salary),'0') then to_number(replace(to_char(salary),'0','')) else salary end),-1) from employees;
